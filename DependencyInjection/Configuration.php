@@ -12,7 +12,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('four_labs_gamp');
+        $treeBuilder = new TreeBuilder('agile_divops_gamp');
         $rootNode = \method_exists($treeBuilder, 'getRootNode') ? $treeBuilder->getRootNode() : $treeBuilder->root('four_labs_gamp');
 
         $rootNode
