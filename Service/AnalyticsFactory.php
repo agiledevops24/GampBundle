@@ -1,6 +1,6 @@
 <?php
 
-namespace FourLabs\GampBundle\Service;
+namespace AgileDivops\GampBundle\Service;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use TheIconic\Tracking\GoogleAnalytics\Analytics;
