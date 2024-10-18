@@ -3,7 +3,7 @@
 <phpunit bootstrap="./Tests/bootstrap.php" colors="true" forceCoversAnnotation="true">
 
     <testsuites>
-        <testsuite name="FourLabsGampBundle test suite">
+        <testsuite name="GampBundle test suite">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
