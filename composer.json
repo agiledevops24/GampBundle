@@ -1,5 +1,5 @@
 {
-    "name": "agiledevops24/gamp-bundle",
+    "name": "agiledivops/gamp-bundle",
     "type": "symfony-bundle",
     "description": "Google Analytics Measurement Protocol bundle for Symfony",
     "keywords": ["google", "analytics", "gamp", "tracking"],
@@ -24,6 +24,6 @@
         "phpunit/phpunit": "^8.4"
     },
     "autoload": {
-        "psr-4": { "AgileDevops\\GampBundle\\": "" }
+        "psr-4": { "AgileDivops\\GampBundle\\": "" }
     }
 }
