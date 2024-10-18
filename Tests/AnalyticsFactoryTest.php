@@ -1,8 +1,8 @@
 <?php
 
-namespace FourLabs\GampBundle\Tests;
+namespace AgileDivops\GampBundle\Tests;
 
-use FourLabs\GampBundle\Service\AnalyticsFactory;
+use AgileDivops\GampBundle\Service\AnalyticsFactory;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
