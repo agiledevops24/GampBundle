@@ -1,13 +1,13 @@
 <?php
 
-namespace FourLabs\GampBundle\DependencyInjection;
+namespace AgileDivops\GampBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class FourLabsGampExtension extends Extension
+class AgileDivopsGampExtension extends Extension
 {
     /**
      * {@inheritdoc}
