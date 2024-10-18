@@ -12,7 +12,7 @@ Google Analytics Measurement Protocol Package for Symfony. Supports all GA Measu
 Open a command console, enter your project directory and execute the following command to download the latest version of this bundle:
 
 ``` bash
-$ composer require fourlabs/gamp-bundle
+$ composer require agiledivops/gamp-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained in the [installation chapter](https://getcomposer.org/doc/00-intro.md) of the Composer documentation.
@@ -23,7 +23,7 @@ If you are using PHP 5.5 or above and Guzzle 6 then:
 
     {
         "require": {
-            "fourlabs/gamp-bundle": "^2.0"
+            "agiledivops/gamp-bundle": "^2.0"
         }
     }
 
@@ -31,7 +31,7 @@ Or if you are using PHP 5.4 or above and Guzzle 5 then:
 
     {
         "require": {
-            "fourlabs/gamp-bundle": "^1.1"
+            "agiledivops/gamp-bundle": "^1.1"
         }
     }
 
@@ -47,7 +47,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new FourLabs\GampBundle\FourLabsGampBundle(),
+        new AgileDivops\GampBundle\AgileDivopsGampBundle(),
     );
 }
 ```
